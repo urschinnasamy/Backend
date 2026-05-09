@@ -7,7 +7,7 @@ const server = http.createServer(app);
 // SOCKET SETUP
 const io = new Server(server, {
   cors: {
-    origin: "*", // Your React frontend URL
+    origin: "https://frontend-on9k.vercel.app", // Your React frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   },
