@@ -18,7 +18,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    "https://auction-eight-umber.vercel.app/"
+    "https://auction-eight-umber.vercel.app"
     
   ],
   credentials: true,
